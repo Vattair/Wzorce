@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cards\Cards.csproj" />
+    <ProjectReference Include="..\Dices\Dices.csproj" />
+    <ProjectReference Include="..\Games\Games.csproj" />
+    <ProjectReference Include="..\Players\Players.csproj" />
+  </ItemGroup>
+
+</Project>
